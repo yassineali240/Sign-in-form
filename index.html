@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="left-section">
+      <img
+        class="background-img"
+        src="background-img.avif"
+        alt="background image"
+      />
+      <div class="odin-div">
+        <img class="odin-img" src="odin-lined.png" alt="oding image logo" />
+        <h1 class="odin-name">Odin</h1>
+      </div>
+    </div>
+    <div class="right-section">
+      <div>
+        <div class="header">
+          <h3>
+            This is not a real online service! you know you need something like
+            this in your life to help you realize you deepest dreams. Sign up
+            now to get started.
+          </h3>
+          <h3>You know you want to</h3>
+        </div>
+      </div>
+      <form action="#">
+        <fieldset>
+          <h2>let's do this</h2>
+          <div class="row">
+            <div class="field">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+            <div class="field">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="someone@domain.com"
+              />
+            </div>
+            <div class="field">
+              <label for="phonenumber">Phone Number</label>
+              <input
+                type="tel"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="+0 (000) 000000"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="password">Password*</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                minlength="8"
+              />
+            </div>
+            <div class="field">
+              <label for="confirmpassword">Confirm Password*</label>
+              <input
+                type="password"
+                name="confirmpassword"
+                id="confirmpassword"
+                required
+                minlength="8"
+              />
+            </div>
+          </div>
+        </fieldset>
+        <div class="footer">
+          <button class="submit-button" type="submit">Create Account</button>
+          <p>Already have account? <a href="#">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
